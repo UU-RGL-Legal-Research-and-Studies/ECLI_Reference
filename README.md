@@ -19,12 +19,13 @@ Deze functie communiceert met de data.rechtspraak.nl API om gegevens over een re
 Naam van de rechterlijke instantie (met specifieke afkortingen voor Nederlandse gerechtshoven)
 Datum van de uitspraak, geformatteerd in het Nederlands
 De ECLI-referentie zelf
-main()
-Dit is de hoofdfunctie van het script. Het:
+main() 
+Dit is de hoofdfunctie van het script. 
 
-Vraagt de gebruiker om ECLI-nummers.
+Het vraagt de gebruiker om ECLI-nummers.
 Roept get_juridical_decision_reference aan voor elk ingevoerd ECLI-nummer.
 Print de gecombineerde referenties.
+
 Foutafhandeling
 De get_juridical_decision_reference functie controleert de HTTP-statuscode van de API-respons. Als deze geen 200 (OK) is, retourneert de functie een foutmelding met de statuscode.
 
