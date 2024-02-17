@@ -1,7 +1,7 @@
 ﻿# ECLI_Reference
 
 **Overzicht**
-Deze Python-script haalt rechterlijke uitspraken op en formatteert deze in een gestandaardiseerde referentievorm. Het script communiceert met de openbare API van data.rechtspraak.nl om informatie te verkrijgen op basis van het European Case Law Identifier (ECLI) nummer.
+Dit Python-script haalt rechterlijke uitspraken op en formatteert deze in een gestandaardiseerde referentievorm. Het script communiceert met de openbare API van data.rechtspraak.nl om informatie te verkrijgen op basis van het European Case Law Identifier (ECLI) nummer.
 
 **Vereisten**
 Python 3.x
